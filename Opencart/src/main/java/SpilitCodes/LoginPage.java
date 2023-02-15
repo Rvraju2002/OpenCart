@@ -24,6 +24,18 @@ public class LoginPage extends resusableCode {
 	@FindBy(id="input-password")
 	WebElement password;
 	
+	@FindBy(css="label[for=\"input-email\"]")
+	WebElement EmilSpelling;
+	
+	@FindBy(css="label[for='input-password']")
+	WebElement PasswordSpelling;
+	
+	@FindBy(css="div[class='mb-3'] a")
+	WebElement forgettenPwsSpelling;
+	
+	@FindBy(css="button[type=\"submit\"]")
+	WebElement loginbtnspelling;
+	
 	
 	public AccounPage LoginApplication(String Email,String Password) throws InterruptedException {
 		
@@ -33,8 +45,28 @@ public class LoginPage extends resusableCode {
 		email.sendKeys(Email);
 		password.sendKeys(Password);
 		ClickLoginButton();
+		Thread.sleep(1000);
 		return new AccounPage(Driver);
 	}
+	
+	public String spellingofEmailoginPage() {
+		
+		String emailSpelling=EmilSpelling.getText();
+		return emailSpelling;
+	}
+    public String spellingofpasswordLoginPage() {
+    	String pwdspell=PasswordSpelling.getText();
+    	return pwdspell;
+	}
+    public String spellingforgetpwdloginPage() {
+    	String frgetspell=forgettenPwsSpelling.getText();
+    	return frgetspell;
+	}
+    public String loginspelling() {
+    	String loginbtnspell=loginbtnspelling.getText();
+    	return loginbtnspell;
+    }
+	
 	
 	
 }

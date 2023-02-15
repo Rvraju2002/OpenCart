@@ -31,4 +31,10 @@
     </classes>
   </test> 
   
+  <test thread-count="5" name="validateLoginpage">
+    <classes>
+      <class name="mainCode.ValidateLoginPage"/>
+    </classes>
+  </test> 
+  
 </suite> <!-- Suite -->

@@ -27,6 +27,10 @@ public class resusableCode {
 
 	@FindBy(css = "button[class$='btn btn-primary']")
 	WebElement loginButton;
+	
+	@FindBy(linkText = "Login")
+	WebElement login;
+
 
 	public void MyAccount() {
 		myaccount.click();
@@ -40,5 +44,10 @@ public class resusableCode {
 
 		loginButton.click();
 	}
+	
+	public void loginlink() {
+		login.click();
+	}
+
 
 }

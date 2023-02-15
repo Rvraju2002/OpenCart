@@ -11,8 +11,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+
 import AbstractComponents.resusableCode;
 import BaseCode.basecode;
+import ReportGenerator.ExtentReportNG;
 import SpilitCodes.LoginPage;
 import SpilitCodes.RegistrationPage;
 import SpilitCodes.homePage;
@@ -20,10 +23,12 @@ import SpilitCodes.homePage;
 public class ValidateRegisterationPage extends basecode {
 
 	resusableCode res;
-
+	
+	
 	@Test
 	public void ValidateErrorMessageRegisterWithalreadyExistEmail() throws InterruptedException {
 		// TODO Auto-generated method stub
+		
 		res = new resusableCode(Driver);
 		res.MyAccount();
 		res.goToRegisterPage();
@@ -35,7 +40,7 @@ public class ValidateRegisterationPage extends basecode {
 		WebElement aleartMessage = Driver.findElement(By.id("alert"));
 		String errorMessgae = aleartMessage.getText();
 		Assert.assertEquals(errorMessgae, "Warning: E-Mail Address is already registered!", "is Failed");
-
+        
 	}
 
 	@Test
@@ -48,8 +53,7 @@ public class ValidateRegisterationPage extends basecode {
 		reg.EnterRegistrationDetails("priyanka", "vijith", "jyfrsfdDkF@gmail.com", "1234");
 		reg.ClickSubmitButton();
 		Thread.sleep(2000);
-		WebElement aleartMessage = Driver.findElement(By.id("alert"));
-		String privacyerrormessage = aleartMessage.getText();
+		String privacyerrormessage =reg.alertMessage();
 		Assert.assertEquals(privacyerrormessage, "Warning: You must agree to the Privacy Policy!");
 	}
 
@@ -108,7 +112,7 @@ public class ValidateRegisterationPage extends basecode {
 		Driver.navigate().refresh();
 		res.ClickLoginButton();
 		Thread.sleep(1000);
-		String error = Driver.findElement(By.id("alert")).getText();
+		String error = reg.alertMessage();
 		Thread.sleep(2000);
 		Assert.assertEquals(error, "Warning: You must agree to the Privacy Policy!");
 
@@ -118,18 +122,18 @@ public class ValidateRegisterationPage extends basecode {
 	public void VerifytheSpellinginRegistrationFields() {
 		res = new resusableCode(Driver);
 		res.MyAccount();
+		RegistrationPage reg = new RegistrationPage(Driver);
 		res.goToRegisterPage();
-		String Firstname = Driver.findElement(By.cssSelector("label[for='input-firstname']")).getText();
+		String Firstname =reg.VerifyspellofFirstName();
 		Assert.assertEquals(Firstname, "First Name", "FirstName filed text is not correct");
-		String LastName = Driver.findElement(By.cssSelector("label[for='input-lastname']")).getText();
+		String LastName = reg.VerifyspellofLastName();
 		Assert.assertEquals(LastName, "Last Name", "LastName filed text is not correct");
-		String EmialLabel = Driver.findElement(By.cssSelector("label[for='input-email']")).getText();
+		String EmialLabel = reg.VerifyspellofemailLabel();
 		Assert.assertEquals(EmialLabel, "E-Mail", "LastName filed text is not correct");
-		String PasswordLabel = Driver.findElement(By.cssSelector("label[for='input-password']")).getText();
+		String PasswordLabel = reg.VerifyspellofpasswordLabel();
 		Assert.assertEquals(PasswordLabel, "Password", "password filed text is not correct");
 
 	}
-
 	@Test
 	public void VerifyRegisterationPageLinkWorkInLoginPage() throws InterruptedException {
 		homePage home = new homePage(Driver);

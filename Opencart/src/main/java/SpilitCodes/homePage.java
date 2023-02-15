@@ -18,18 +18,12 @@ public class homePage extends resusableCode {
 
 	// Driver.findElement(By.linkText("Login")).click();
 
-	@FindBy(linkText = "Login")
-	WebElement login;
-
+	
 	
 
 	public void goTo() {
 
 		Driver.get("http://localhost/opencart/index.php?route=common/home&language=en-gb");
-	}
-
-	public void loginlink() {
-		login.click();
 	}
 
 	

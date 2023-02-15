@@ -8,6 +8,7 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -70,9 +71,10 @@ public class basecode {
 		AccounPage accountpage = loginpage.LoginApplication(email, password);
 	}
 	
-	public void loginlink() {
+	
 		
-	}
+
+	
 	
 	
 	@BeforeMethod(alwaysRun = true)

@@ -31,6 +31,27 @@ public class RegistrationPage extends resusableCode {
     WebElement agree;
     @FindBy(css="button[type$='submit']")
     WebElement submit;
+    @FindBy(id="alert")
+    WebElement aleartMessage;
+    
+    @FindBy(css="label[for='input-firstname']")
+    WebElement Firstname;
+    
+    @FindBy(css="label[for='input-lastname']")
+    WebElement LastName;
+    
+    @FindBy(css="label[for='input-email']")
+    WebElement EmialLabel;
+    
+    @FindBy(css="label[for='input-password']")
+    WebElement PasswordLabel;
+    
+    
+    
+    
+    
+    
+    
 	
 	public void EnterRegistrationDetails(String FIRSTNAME,String LASTNAME,String EMAIL,String PASSWORD) throws InterruptedException {
 
@@ -44,13 +65,34 @@ public class RegistrationPage extends resusableCode {
 	}
 	public void clickPrivacy() throws InterruptedException {
 		   
-		  
 		   agree.click();
 	}
 	
 	public void ClickSubmitButton() {
 		submit.click();
 		
+	}
+	public String alertMessage() {
+		
+		String alrt=aleartMessage.getText();
+		return alrt;
+	}
+	
+	public String VerifyspellofFirstName() {
+		String fn=Firstname.getText();
+		return fn;
+	}
+	public String VerifyspellofLastName() {
+		String ln= LastName .getText();
+		return ln;
+	}
+	public String VerifyspellofemailLabel() {
+		String el= EmialLabel.getText();
+		return el;
+	}
+	public String VerifyspellofpasswordLabel() {
+		String pwl=PasswordLabel.getText();
+		return pwl;
 	}
 	   
 
