@@ -10,6 +10,8 @@ import SpilitCodes.LoginPage;
 
 public class ValidateLoginPage extends basecode{
 	resusableCode res;
+	
+	
 	@Test
 	public void validateLoginLinkOnHomePage() {
 		

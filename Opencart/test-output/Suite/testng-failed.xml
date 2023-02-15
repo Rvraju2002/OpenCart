@@ -4,16 +4,15 @@
   <listeners>
     <listener class-name="BaseCode.Listeners"/>
   </listeners>
-  <test thread-count="5" name="ValidateRegisterPage(failed)">
+  <test thread-count="5" name="validateLoginpage(failed)">
     <classes>
-      <class name="mainCode.ValidateRegisterationPage">
+      <class name="mainCode.ValidateLoginPage">
         <methods>
           <include name="QuitBrowser"/>
-          <include name="VeriyasideRegisterLinkWorkInLoginPage"/>
           <include name="HomePage"/>
-          <include name="VerifyRegisterationPageLinkWorkInLoginPage"/>
+          <include name="Email_Case_Insensitive_Verification"/>
         </methods>
-      </class> <!-- mainCode.ValidateRegisterationPage -->
+      </class> <!-- mainCode.ValidateLoginPage -->
     </classes>
-  </test> <!-- ValidateRegisterPage(failed) -->
+  </test> <!-- validateLoginpage(failed) -->
 </suite> <!-- Failed suite [Suite] -->

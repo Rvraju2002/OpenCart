@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mainCode.ValidateRegisterationPage">
+      <class name="mainCode.ValidateLoginPage">
         <methods>
           <include name="QuitBrowser"/>
-          <include name="VeriyasideRegisterLinkWorkInLoginPage"/>
           <include name="HomePage"/>
+          <include name="Email_Case_Insensitive_Verification"/>
         </methods>
-      </class> <!-- mainCode.ValidateRegisterationPage -->
+      </class> <!-- mainCode.ValidateLoginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
