@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import AbstractComponents.resusableCode;
 import BaseCode.basecode;
 
 
@@ -29,7 +30,9 @@ public class UITesting extends basecode {
 
 	@Test
 	public void VerifyLoginPageTitle() throws InterruptedException {
-		GoToaccountPage();
+		resusableCode res = new resusableCode(Driver);
+		res.MyAccount();
+		res.loginlink();
 		String ActualTitle = Driver.getTitle();
 		Assert.assertEquals(ActualTitle, "Account Login", "VerifyAccountPageTitle failed");
 	}
