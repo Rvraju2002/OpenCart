@@ -31,8 +31,7 @@ public class RegistrationPage extends resusableCode {
     WebElement agree;
     @FindBy(css="button[type$='submit']")
     WebElement submit;
-    @FindBy(id="alert")
-    WebElement aleartMessage;
+   
     
     @FindBy(css="label[for='input-firstname']")
     WebElement Firstname;
@@ -72,11 +71,7 @@ public class RegistrationPage extends resusableCode {
 		submit.click();
 		
 	}
-	public String alertMessage() {
-		
-		String alrt=aleartMessage.getText();
-		return alrt;
-	}
+	
 	
 	public String VerifyspellofFirstName() {
 		String fn=Firstname.getText();

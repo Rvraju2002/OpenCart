@@ -37,8 +37,7 @@ public class ValidateRegisterationPage extends basecode {
 		reg.clickPrivacy();
 		reg.ClickSubmitButton();
 		Thread.sleep(1000);
-		WebElement aleartMessage = Driver.findElement(By.id("alert"));
-		String errorMessgae = aleartMessage.getText();
+		String errorMessgae =res.alertMessage();
 		Assert.assertEquals(errorMessgae, "Warning: E-Mail Address is already registered!", "is Failed");
         
 	}
@@ -53,7 +52,7 @@ public class ValidateRegisterationPage extends basecode {
 		reg.EnterRegistrationDetails("priyanka", "vijith", "jyfrsfdDkF@gmail.com", "1234");
 		reg.ClickSubmitButton();
 		Thread.sleep(2000);
-		String privacyerrormessage =reg.alertMessage();
+		String privacyerrormessage =res.alertMessage();
 		Assert.assertEquals(privacyerrormessage, "Warning: You must agree to the Privacy Policy!");
 	}
 

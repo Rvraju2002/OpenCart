@@ -1,49 +1,401 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="31" passed="31" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-15T22:31:29 IST" name="Default suite" finished-at="2023-02-15T22:31:39 IST" duration-ms="9903">
+  <suite started-at="2023-02-16T22:46:22 IST" name="Suite" finished-at="2023-02-16T22:49:32 IST" duration-ms="189946">
     <groups>
     </groups>
-    <test started-at="2023-02-15T22:31:29 IST" name="Default test" finished-at="2023-02-15T22:31:39 IST" duration-ms="9903">
-      <class name="mainCode.ValidateLoginPage">
-        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@7133da86]" started-at="2023-02-15T22:31:29 IST" name="HomePage" finished-at="2023-02-15T22:31:32 IST" duration-ms="2497" status="PASS">
+    <test started-at="2023-02-16T22:46:22 IST" name="Endtoend" finished-at="2023-02-16T22:46:51 IST" duration-ms="28708">
+      <class name="mainCode.EndToEnd">
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.EndToEnd@4671115f]" started-at="2023-02-16T22:46:22 IST" name="HomePage" finished-at="2023-02-16T22:46:26 IST" duration-ms="3621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method signature="Email_Case_Insensitive_Verification()[pri:0, instance:mainCode.ValidateLoginPage@7133da86]" started-at="2023-02-15T22:31:32 IST" name="Email_Case_Insensitive_Verification" finished-at="2023-02-15T22:31:35 IST" duration-ms="2635" status="PASS">
+        <test-method signature="EndToEndPage()[pri:0, instance:mainCode.EndToEnd@4671115f]" started-at="2023-02-16T22:46:26 IST" name="EndToEndPage" finished-at="2023-02-16T22:46:51 IST" duration-ms="24793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndPage -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.EndToEnd@4671115f]" started-at="2023-02-16T22:46:51 IST" name="QuitBrowser" finished-at="2023-02-16T22:46:51 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- mainCode.EndToEnd -->
+    </test> <!-- Endtoend -->
+    <test started-at="2023-02-16T22:46:51 IST" name="linksvalidate" finished-at="2023-02-16T22:48:02 IST" duration-ms="70346">
+      <class name="mainCode.ValidateLinks">
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLinks@3899782c]" started-at="2023-02-16T22:46:51 IST" name="HomePage" finished-at="2023-02-16T22:46:53 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="ValidateasideLinks()[pri:0, instance:mainCode.ValidateLinks@3899782c]" started-at="2023-02-16T22:46:53 IST" name="ValidateasideLinks" finished-at="2023-02-16T22:46:58 IST" duration-ms="5407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateasideLinks -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLinks@3899782c]" started-at="2023-02-16T22:46:58 IST" name="QuitBrowser" finished-at="2023-02-16T22:46:59 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLinks@3899782c]" started-at="2023-02-16T22:46:59 IST" name="HomePage" finished-at="2023-02-16T22:47:00 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="ValidatefooterLinks()[pri:0, instance:mainCode.ValidateLinks@3899782c]" started-at="2023-02-16T22:47:00 IST" name="ValidatefooterLinks" finished-at="2023-02-16T22:47:54 IST" duration-ms="54361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatefooterLinks -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLinks@3899782c]" started-at="2023-02-16T22:47:54 IST" name="QuitBrowser" finished-at="2023-02-16T22:47:55 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLinks@3899782c]" started-at="2023-02-16T22:47:55 IST" name="HomePage" finished-at="2023-02-16T22:47:56 IST" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="ValidatemainLinks()[pri:0, instance:mainCode.ValidateLinks@3899782c]" started-at="2023-02-16T22:47:56 IST" name="ValidatemainLinks" finished-at="2023-02-16T22:48:02 IST" duration-ms="5311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatemainLinks -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLinks@3899782c]" started-at="2023-02-16T22:48:02 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:02 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- mainCode.ValidateLinks -->
+    </test> <!-- linksvalidate -->
+    <test started-at="2023-02-16T22:48:02 IST" name="InteraceTesting" finished-at="2023-02-16T22:48:10 IST" duration-ms="8002">
+      <class name="mainCode.UITesting">
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.UITesting@6ce86ce1]" started-at="2023-02-16T22:48:02 IST" name="HomePage" finished-at="2023-02-16T22:48:03 IST" duration-ms="1430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifyAccountPageTitle()[pri:0, instance:mainCode.UITesting@6ce86ce1]" started-at="2023-02-16T22:48:03 IST" name="VerifyAccountPageTitle" finished-at="2023-02-16T22:48:07 IST" duration-ms="3383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAccountPageTitle -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.UITesting@6ce86ce1]" started-at="2023-02-16T22:48:07 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:07 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.UITesting@6ce86ce1]" started-at="2023-02-16T22:48:07 IST" name="HomePage" finished-at="2023-02-16T22:48:08 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifyHomePageTitle()[pri:0, instance:mainCode.UITesting@6ce86ce1]" started-at="2023-02-16T22:48:08 IST" name="VerifyHomePageTitle" finished-at="2023-02-16T22:48:08 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitle -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.UITesting@6ce86ce1]" started-at="2023-02-16T22:48:08 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:08 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.UITesting@6ce86ce1]" started-at="2023-02-16T22:48:08 IST" name="HomePage" finished-at="2023-02-16T22:48:09 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifyLoginPageTitle()[pri:0, instance:mainCode.UITesting@6ce86ce1]" started-at="2023-02-16T22:48:09 IST" name="VerifyLoginPageTitle" finished-at="2023-02-16T22:48:10 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPageTitle -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.UITesting@6ce86ce1]" started-at="2023-02-16T22:48:10 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:10 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- mainCode.UITesting -->
+    </test> <!-- InteraceTesting -->
+    <test started-at="2023-02-16T22:48:10 IST" name="ValidateRegisterPage" finished-at="2023-02-16T22:48:57 IST" duration-ms="46857">
+      <class name="mainCode.ValidateRegisterationPage">
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:10 IST" name="HomePage" finished-at="2023-02-16T22:48:11 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="Registerwithoutclickingprivacycheckbox()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:11 IST" name="Registerwithoutclickingprivacycheckbox" finished-at="2023-02-16T22:48:16 IST" duration-ms="4532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registerwithoutclickingprivacycheckbox -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:16 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:16 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:16 IST" name="HomePage" finished-at="2023-02-16T22:48:17 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="ValidateErrorMessageRegisterWithalreadyExistEmail()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:17 IST" name="ValidateErrorMessageRegisterWithalreadyExistEmail" finished-at="2023-02-16T22:48:21 IST" duration-ms="3549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateErrorMessageRegisterWithalreadyExistEmail -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:21 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:21 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:21 IST" name="HomePage" finished-at="2023-02-16T22:48:22 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="ValidateRegisterAfterclickinRegister()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:22 IST" name="ValidateRegisterAfterclickinRegister" finished-at="2023-02-16T22:48:22 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRegisterAfterclickinRegister -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:22 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:23 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:23 IST" name="HomePage" finished-at="2023-02-16T22:48:24 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="ValidateifUserEnterdataAfterreshdatawillbecleared()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:24 IST" name="ValidateifUserEnterdataAfterreshdatawillbecleared" finished-at="2023-02-16T22:48:29 IST" duration-ms="5689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateifUserEnterdataAfterreshdatawillbecleared -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:29 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:30 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:30 IST" name="HomePage" finished-at="2023-02-16T22:48:31 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="ValidaterefreshthePageOnRegistration()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:31 IST" name="ValidaterefreshthePageOnRegistration" finished-at="2023-02-16T22:48:31 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidaterefreshthePageOnRegistration -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:31 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:32 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:32 IST" name="HomePage" finished-at="2023-02-16T22:48:33 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="Validatetheregistrationtitleafterrefresh()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:33 IST" name="Validatetheregistrationtitleafterrefresh" finished-at="2023-02-16T22:48:33 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validatetheregistrationtitleafterrefresh -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:33 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:33 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:33 IST" name="HomePage" finished-at="2023-02-16T22:48:35 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifyEmailfieldacceptOnlyacceptvalidemail()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:35 IST" name="VerifyEmailfieldacceptOnlyacceptvalidemail" finished-at="2023-02-16T22:48:37 IST" duration-ms="2525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmailfieldacceptOnlyacceptvalidemail -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:37 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:37 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:37 IST" name="HomePage" finished-at="2023-02-16T22:48:39 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifyLoginlinkWorkInRegisterPage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:39 IST" name="VerifyLoginlinkWorkInRegisterPage" finished-at="2023-02-16T22:48:39 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginlinkWorkInRegisterPage -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:39 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:39 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:39 IST" name="HomePage" finished-at="2023-02-16T22:48:40 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifyRegisterationPageLinkWorkInLoginPage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:40 IST" name="VerifyRegisterationPageLinkWorkInLoginPage" finished-at="2023-02-16T22:48:41 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterationPageLinkWorkInLoginPage -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:41 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:41 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:41 IST" name="HomePage" finished-at="2023-02-16T22:48:42 IST" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifytheSpellinginRegistrationFields()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:42 IST" name="VerifytheSpellinginRegistrationFields" finished-at="2023-02-16T22:48:43 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifytheSpellinginRegistrationFields -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:43 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:43 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:43 IST" name="HomePage" finished-at="2023-02-16T22:48:44 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VeriyRegisterPageWithoutEnterFirstNme()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:44 IST" name="VeriyRegisterPageWithoutEnterFirstNme" finished-at="2023-02-16T22:48:48 IST" duration-ms="4521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriyRegisterPageWithoutEnterFirstNme -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:48 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:49 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:49 IST" name="HomePage" finished-at="2023-02-16T22:48:50 IST" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VeriyRegisterPageWithoutLastFirstNme()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:50 IST" name="VeriyRegisterPageWithoutLastFirstNme" finished-at="2023-02-16T22:48:55 IST" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriyRegisterPageWithoutLastFirstNme -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:55 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:55 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:55 IST" name="HomePage" finished-at="2023-02-16T22:48:56 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VeriyasideRegisterLinkWorkInLoginPage()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:56 IST" name="VeriyasideRegisterLinkWorkInLoginPage" finished-at="2023-02-16T22:48:57 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriyasideRegisterLinkWorkInLoginPage -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateRegisterationPage@c94fd30]" started-at="2023-02-16T22:48:57 IST" name="QuitBrowser" finished-at="2023-02-16T22:48:57 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- mainCode.ValidateRegisterationPage -->
+    </test> <!-- ValidateRegisterPage -->
+    <test started-at="2023-02-16T22:48:57 IST" name="validateLoginpage" finished-at="2023-02-16T22:49:32 IST" duration-ms="35611">
+      <class name="mainCode.ValidateLoginPage">
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:48:57 IST" name="HomePage" finished-at="2023-02-16T22:48:58 IST" duration-ms="1291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="Email_Case_Insensitive_Verification()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:48:58 IST" name="Email_Case_Insensitive_Verification" finished-at="2023-02-16T22:49:00 IST" duration-ms="2387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Email_Case_Insensitive_Verification -->
-        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@7133da86]" started-at="2023-02-15T22:31:35 IST" name="QuitBrowser" finished-at="2023-02-15T22:31:35 IST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:00 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:01 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitBrowser -->
-        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@7133da86]" started-at="2023-02-15T22:31:35 IST" name="HomePage" finished-at="2023-02-15T22:31:36 IST" duration-ms="1671" status="PASS">
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:01 IST" name="HomePage" finished-at="2023-02-16T22:49:02 IST" duration-ms="1158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method signature="VerifySpellingLoginPage()[pri:0, instance:mainCode.ValidateLoginPage@7133da86]" started-at="2023-02-15T22:31:36 IST" name="VerifySpellingLoginPage" finished-at="2023-02-15T22:31:37 IST" duration-ms="433" status="PASS">
+        <test-method signature="LoginWithOutCredential()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:02 IST" name="LoginWithOutCredential" finished-at="2023-02-16T22:49:03 IST" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithOutCredential -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:03 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:03 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:03 IST" name="HomePage" finished-at="2023-02-16T22:49:04 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="LoginWithOutEmail()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:04 IST" name="LoginWithOutEmail" finished-at="2023-02-16T22:49:08 IST" duration-ms="3398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithOutEmail -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:08 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:08 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:08 IST" name="HomePage" finished-at="2023-02-16T22:49:09 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="LoginWithoutPassword()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:09 IST" name="LoginWithoutPassword" finished-at="2023-02-16T22:49:13 IST" duration-ms="3388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithoutPassword -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:13 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:13 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:13 IST" name="HomePage" finished-at="2023-02-16T22:49:14 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifyForgetpasswordPage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:14 IST" name="VerifyForgetpasswordPage" finished-at="2023-02-16T22:49:15 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyForgetpasswordPage -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:15 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:15 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:15 IST" name="HomePage" finished-at="2023-02-16T22:49:16 IST" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifySpellingLoginPage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:16 IST" name="VerifySpellingLoginPage" finished-at="2023-02-16T22:49:16 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySpellingLoginPage -->
-        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@7133da86]" started-at="2023-02-15T22:31:37 IST" name="QuitBrowser" finished-at="2023-02-15T22:31:37 IST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:16 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:17 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitBrowser -->
-        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@7133da86]" started-at="2023-02-15T22:31:37 IST" name="HomePage" finished-at="2023-02-15T22:31:39 IST" duration-ms="1751" status="PASS">
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:17 IST" name="HomePage" finished-at="2023-02-16T22:49:18 IST" duration-ms="1261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method signature="validateLoginLinkOnHomePage()[pri:0, instance:mainCode.ValidateLoginPage@7133da86]" started-at="2023-02-15T22:31:39 IST" name="validateLoginLinkOnHomePage" finished-at="2023-02-15T22:31:39 IST" duration-ms="376" status="PASS">
+        <test-method signature="VerifyTiltleAfterLogin()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:18 IST" name="VerifyTiltleAfterLogin" finished-at="2023-02-16T22:49:21 IST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTiltleAfterLogin -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:21 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:21 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:21 IST" name="HomePage" finished-at="2023-02-16T22:49:23 IST" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="VerifyasideForgetpasswordLink()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:23 IST" name="VerifyasideForgetpasswordLink" finished-at="2023-02-16T22:49:23 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyasideForgetpasswordLink -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:23 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:23 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:23 IST" name="HomePage" finished-at="2023-02-16T22:49:24 IST" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="validateLoginLinkOnHomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:24 IST" name="validateLoginLinkOnHomePage" finished-at="2023-02-16T22:49:25 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginLinkOnHomePage -->
-        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@7133da86]" started-at="2023-02-15T22:31:39 IST" name="QuitBrowser" finished-at="2023-02-15T22:31:39 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:25 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:25 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:25 IST" name="HomePage" finished-at="2023-02-16T22:49:26 IST" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="verify_refresh_loginpage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:26 IST" name="verify_refresh_loginpage" finished-at="2023-02-16T22:49:27 IST" duration-ms="1506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_refresh_loginpage -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:27 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:28 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="HomePage()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:28 IST" name="HomePage" finished-at="2023-02-16T22:49:29 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="withValidcredential()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:29 IST" name="withValidcredential" finished-at="2023-02-16T22:49:32 IST" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withValidcredential -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:mainCode.ValidateLoginPage@ab7395e]" started-at="2023-02-16T22:49:32 IST" name="QuitBrowser" finished-at="2023-02-16T22:49:32 IST" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitBrowser -->
       </class> <!-- mainCode.ValidateLoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- validateLoginpage -->
+  </suite> <!-- Suite -->
 </testng-results>

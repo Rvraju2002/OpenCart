@@ -87,7 +87,7 @@ public class basecode {
 	}
 	
 
-   @AfterMethod(alwaysRun=true)
+    @AfterMethod(alwaysRun=true)
 	public void QuitBrowser() {
 		
 		Driver.quit();

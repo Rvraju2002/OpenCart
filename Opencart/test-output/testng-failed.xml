@@ -5,9 +5,9 @@
     <classes>
       <class name="mainCode.ValidateLoginPage">
         <methods>
+          <include name="VerifyForgetpasswordPage"/>
           <include name="QuitBrowser"/>
           <include name="HomePage"/>
-          <include name="Email_Case_Insensitive_Verification"/>
         </methods>
       </class> <!-- mainCode.ValidateLoginPage -->
     </classes>

@@ -31,6 +31,8 @@ public class resusableCode {
 	@FindBy(linkText = "Login")
 	WebElement login;
 
+    @FindBy(id="alert")
+	WebElement aleartMessage;
 
 	public void MyAccount() {
 		myaccount.click();
@@ -38,6 +40,12 @@ public class resusableCode {
 	public void goToRegisterPage() {
 		
 		registerPage.click();
+	}
+	
+    public String alertMessage() {
+		
+		String alrt=aleartMessage.getText();
+		return alrt;
 	}
 
 	public void ClickLoginButton() {

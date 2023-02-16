@@ -36,6 +36,13 @@ public class LoginPage extends resusableCode {
 	@FindBy(css="button[type=\"submit\"]")
 	WebElement loginbtnspelling;
 	
+	@FindBy(css="div[class='mb-3'] a")
+	WebElement forgetenPasswordLink;
+	
+	@FindBy(xpath="//div//aside//div//a[3]")
+	WebElement asideLink;
+	////div//aside//div//a[3]
+	
 	
 	public AccounPage LoginApplication(String Email,String Password) throws InterruptedException {
 		
@@ -47,6 +54,14 @@ public class LoginPage extends resusableCode {
 		ClickLoginButton();
 		Thread.sleep(1000);
 		return new AccounPage(Driver);
+	}
+	public void EnterEmail(String El,String Pad) throws InterruptedException {
+
+		JavascriptExecutor js = (JavascriptExecutor) Driver;
+		js.executeScript("window.scrollBy(0,300)");
+		Thread.sleep(1000);
+		email.sendKeys(El);
+		password.sendKeys(Pad);
 	}
 	
 	public String spellingofEmailoginPage() {
@@ -67,6 +82,13 @@ public class LoginPage extends resusableCode {
     	return loginbtnspell;
     }
 	
+   
+    public void GoToForgetPasswordPage() {
+    	forgetenPasswordLink.click();
+    }
+    public void AsideForgetLink() {
+    	asideLink.click();
+    }
 	
 	
 }

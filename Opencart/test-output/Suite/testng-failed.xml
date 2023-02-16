@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="BaseCode.Listeners"/>
   </listeners>
-  <test thread-count="5" name="validateLoginpage(failed)">
+  <test thread-count="5" name="InteraceTesting(failed)">
     <classes>
-      <class name="mainCode.ValidateLoginPage">
+      <class name="mainCode.UITesting">
         <methods>
           <include name="QuitBrowser"/>
+          <include name="VerifyLoginPageTitle"/>
           <include name="HomePage"/>
-          <include name="Email_Case_Insensitive_Verification"/>
         </methods>
-      </class> <!-- mainCode.ValidateLoginPage -->
+      </class> <!-- mainCode.UITesting -->
     </classes>
-  </test> <!-- validateLoginpage(failed) -->
+  </test> <!-- InteraceTesting(failed) -->
 </suite> <!-- Failed suite [Suite] -->
